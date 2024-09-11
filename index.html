@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- IE要採用何種IE版本去渲染網頁 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="BEI's Website" />
+    <!-- 指定螢幕寬度為裝置寬度，畫面載入初始縮放比例 100% -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+    <title>被被蓋被子</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <hrader class="header sticky">
+      <nav class="menu">
+        <input id="menu__button" type="checkbox" checked />
+        <a class="menu__item" href="#about">My Little World</a>
+        <a class="menu__item" href="#comm">COMMISSION</a>
+        <a class="menu__item" href="#pro">PROJECTS</a>
+        <a class="menu__item" href="#news">NEWS</a>
+        <label class="menu__close" for="menu__button"></label>
+      </nav>
+    </hrader>
+
+    <main class="container">
+      <a href="#"></a>
+      <img class="logo" alt="BEU" src="img/header.PNG" />
+
+      <!-- 111111111111111111111111111 -->
+
+      <section class="popup1 center-text">
+        <!-- 顯示視窗的按鈕 -->
+        <button class="open-window-btn" id="open-window-btn">
+          被子那的個人檔案
+        </button>
+        <!-- 第一個視窗 -->
+        <div class="window" id="popup-window-1">
+          <div class="window-header">
+            <span>Help Topics: Window 1</span>
+            <button class="close-btn" data-window="popup-window-1">X</button>
+          </div>
+          <div class="tab-buttons">
+            <button class="tab-button active">Contents</button>
+            <button class="tab-button">Index</button>
+            <button class="tab-button">Find</button>
+          </div>
+          <div class="window-body">
+            <p>
+              Click a book, and then click Open. Or click another tab, such as
+              Index.
+            </p>
+          </div>
+          <div class="window-footer">
+            <button>Cancel</button>
+          </div>
+        </div>
+
+        <!-- 第二個視窗 -->
+        <div class="window" id="popup-window-2">
+          <div class="window-header">
+            <span>Help Topics: Window 2</span>
+            <button class="close-btn" data-window="popup-window-2">X</button>
+          </div>
+
+          <div class="window-body">
+            <p>
+              This is the second window. You can open, print, or cancel from
+              here.
+            </p>
+          </div>
+          <div class="window-footer">
+            <button>Cancel</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- 連接外部 JavaScript 文件 -->
+      <script src="script.js"></script>
+
+      <!-- 1111111111111111111111111111111111111111111111111111111111111111111111111111111 -->
+
+      <section class="littleword" id="about">
+        <h1 class="center-text">My Little World</h1>
+        <p class="description">被被子，貝貝二號</p>
+      </section>
+
+      <section class="newsnews" id="news">
+        <h1 class="center-text">NEWS</h1>
+        <p class="description">新聞</p>
+      </section>
+
+      <section class="project" id="pro">
+        <h1 class="center-text">PROJECTS</h1>
+        <p class="description">!!!</p>
+      </section>
+
+      <section class="commission" id="comm">
+        <h1 class="center-text">COMMISSION</h1>
+        <p class="description">委託</p>
+      </section>
+
+      <p class="foot description">聯絡</p>
+    </main>
+  </body>
+</html>
