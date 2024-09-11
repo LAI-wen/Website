@@ -286,17 +286,11 @@ input[type="checkbox"]:not(:checked) ~ .menu__close {
   margin: 4rem 0;
 }
 
-@media (max-width: 44em) {
-  .logo {
-    width: 90vw;
-  }
-}
-
 /* 11111111111111111111111111111111111111111111111111 */
 
 .popup1 {
   width: 60%;
-  height: 40vh;
+  height: 50vh;
   margin: 5rem;
 }
 
@@ -345,8 +339,12 @@ input[type="checkbox"]:not(:checked) ~ .menu__close {
   font-size: 14px;
   background-color: #e0e0e0;
   border: 2px solid #808080;
-  height: 200px;
+  /* height: 200px; */
   overflow: hidden;
+}
+
+.window-body-1 {
+  height: 250px;
 }
 
 .tab-buttons {
@@ -404,13 +402,55 @@ input[type="checkbox"]:not(:checked) ~ .menu__close {
 
 /* 調整第二個視窗的位置，使其與第一個視窗部分重疊 */
 #popup-window-1 {
-  top: 85%;
+  top: 135%;
   left: 45%;
+  line-height: 1.5;
   transform: translate(-50%, -50%);
 }
 
 #popup-window-2 {
-  top: 90%;
+  top: 145%;
   left: 55%;
   transform: translate(-50%, -50%);
+  line-height: 1.5;
+}
+
+@media (max-width: 44em) {
+  .logo {
+    width: 90vw;
+  }
+
+  .popup1 {
+    width: 60%;
+    height: 40vh;
+    margin: 5rem;
+  }
+
+  .window {
+    width: 60%;
+    border: 2px solid #000;
+    background-color: #c0c0c0;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 2px 2px 0 #404040;
+    filter: blur(0.5px) contrast(80%);
+    image-rendering: pixelated;
+  }
+
+  /* 調整第二個視窗的位置，使其與第一個視窗部分重疊 */
+  #popup-window-1 {
+    top: 85%;
+    left: 45%;
+    line-height: 1.5;
+    transform: translate(-50%, -50%);
+  }
+
+  #popup-window-2 {
+    top: 90%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    line-height: 1.5;
+  }
 }
