@@ -421,13 +421,13 @@ input[type="checkbox"]:not(:checked) ~ .menu__close {
   }
 
   .popup1 {
-    width: 60%;
+    width: 70%;
     height: 40vh;
     margin: 5rem;
   }
 
   .window {
-    width: 60%;
+    width: 70%;
     border: 2px solid #000;
     background-color: #c0c0c0;
     position: absolute;
