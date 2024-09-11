@@ -15,7 +15,7 @@ const tabContent = {
        旺旺仙貝 &nbsp;|&nbsp; 台灣人<br />
     <br />
         學生兼打工仔，做過珠寶設計公司的打雜員工、餐館會計助理、咖啡廳打工人等職業。<br />
-        <br />會畫圖，但不多。<br />
+        會畫圖，但不多。<br />
         會寫作，但不多。<br />
         會敲程式，一點點，有敲壞鍵盤的經驗。<br />
         最喜歡的一句話：Peace&nbsp;and&nbsp;Love
@@ -37,13 +37,14 @@ const tabContent = {
   },
   others: {
     text: `
-        推薦大家爬個山<br />
+        推薦大家爬個山<br /><br />
         枕頭山 &nbsp;|&nbsp; 6.6公里 &nbsp;|&nbsp; 2 小時 10 分鐘 <br/>
         五寮尖 &nbsp;|&nbsp; 4.47 公里 &nbsp;|&nbsp; 5 小時 <br/>
-        
+        大里天公廟O型走大溪漁港 &nbsp;|&nbsp; 12.66 公里 &nbsp;|&nbsp; 7 小時 <br/>
         神仙縱走 &nbsp;|&nbsp; 12.5 公里 &nbsp;|&nbsp; 8 小時<br/>
-        嘉明湖 &nbsp;|&nbsp; 13 公里 &nbsp;|&nbsp; 三天兩夜<br/>
         玉山 &nbsp;|&nbsp; 10.9 公里 &nbsp;|&nbsp; 兩天一夜<br/>
+        嘉明湖 &nbsp;|&nbsp; 13 公里 &nbsp;|&nbsp; 三天兩夜<br/>
+        
       `,
     image: "find-image.jpg",
   },

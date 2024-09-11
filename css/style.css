@@ -72,6 +72,7 @@ input[type="checkbox"] {
 .sticky {
   position: fixed;
   top: 0;
+  z-index: 999;
 }
 
 /*------------------------------------*
@@ -88,6 +89,7 @@ input[type="checkbox"] {
   font-family: "Handjet", sans-serif;
   font-weight: 700;
   font-style: normal;
+  z-index: 999;
 }
 /*------------------------------------*
   MENU ITEM
@@ -101,6 +103,7 @@ input[type="checkbox"] {
   padding: 0.5rem;
   transform: translateX(calc(-100% - 2.4rem));
   transition: background-color 0.2s;
+  z-index: 999;
 }
 .menu__item:nth-child(2) {
   width: 12rem;
@@ -310,6 +313,7 @@ input[type="checkbox"]:not(:checked) ~ .menu__close {
   box-shadow: 2px 2px 0 #404040;
   filter: blur(0.5px) contrast(80%);
   image-rendering: pixelated;
+  z-index: 100;
 }
 
 .window-header {
@@ -424,6 +428,7 @@ input[type="checkbox"]:not(:checked) ~ .menu__close {
     width: 70%;
     height: 40vh;
     margin: 5rem;
+    z-index: 100;
   }
 
   .window {
@@ -437,6 +442,7 @@ input[type="checkbox"]:not(:checked) ~ .menu__close {
     box-shadow: 2px 2px 0 #404040;
     filter: blur(0.5px) contrast(80%);
     image-rendering: pixelated;
+    z-index: 100;
   }
 
   /* 調整第二個視窗的位置，使其與第一個視窗部分重疊 */
