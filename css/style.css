@@ -289,7 +289,7 @@ input[type="checkbox"]:not(:checked) ~ .menu__close {
 /* 11111111111111111111111111111111111111111111111111 */
 
 .popup1 {
-  width: 60%;
+  width: 70%;
   height: 50vh;
   margin: 5rem;
 }
@@ -300,7 +300,7 @@ input[type="checkbox"]:not(:checked) ~ .menu__close {
 }
 
 .window {
-  width: 60%;
+  width: 70%;
   border: 2px solid #000;
   background-color: #c0c0c0;
   position: absolute;
@@ -441,14 +441,14 @@ input[type="checkbox"]:not(:checked) ~ .menu__close {
 
   /* 調整第二個視窗的位置，使其與第一個視窗部分重疊 */
   #popup-window-1 {
-    top: 85%;
+    top: 95%;
     left: 45%;
     line-height: 1.5;
     transform: translate(-50%, -50%);
   }
 
   #popup-window-2 {
-    top: 90%;
+    top: 100%;
     left: 55%;
     transform: translate(-50%, -50%);
     line-height: 1.5;
