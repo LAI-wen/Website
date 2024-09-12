@@ -418,6 +418,21 @@ input[type="checkbox"]:not(:checked) ~ .menu__close {
   transform: translate(-50%, -50%);
   line-height: 1.5;
 }
+#startGameButton,
+#game {
+  width: 100%;
+  max-width: 600px; /* 設定最大寬度 */
+  aspect-ratio: 1/1; /* 寬高比例保持 1:1 */
+  margin: 0 auto; /* 居中顯示 */
+  display: block;
+}
+#startGameButton {
+  background-color: #000;
+  color: white;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
 
 @media (max-width: 44em) {
   .logo {

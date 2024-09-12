@@ -20,7 +20,7 @@
     <hrader class="header sticky">
       <nav class="menu">
         <input id="menu__button" type="checkbox" checked />
-        <a class="menu__item" href="#about">My Little World</a>
+        <a class="menu__item" href="#">My Little World</a>
         <a class="menu__item" href="#comm">COMMISSION</a>
         <a class="menu__item" href="#pro">PROJECTS</a>
         <a class="menu__item" href="#news">NEWS</a>
@@ -57,7 +57,7 @@
             <p>
               旺旺仙貝 &nbsp;|&nbsp; 台灣人<br />
               <br />
-              學生兼打工仔，做過珠寶設計公司的打雜員工、餐館會計助理、咖啡廳打工人、委託社畫圖人等工作。<br />
+              學生兼打工仔，做過珠寶設計公司的打雜員工、餐館會計助理、咖啡廳打工人等職業。<br />
               會畫圖，但不多。<br />
               會寫作，但不多。<br />
               會敲程式，一點點，有敲壞鍵盤的經驗。<br />
@@ -99,14 +99,32 @@
           被被子，貝貝二號 困死我不做了!!!!!<br />&nbsp;
         </p>
       </section>
-      <section class="game-section" id="game">
-        <iframe
-          src="untitled.html"
-          width="100%"
-          height="400px"
-          frameborder="0"
-          allowfullscreen
-        ></iframe>
+      <section class="game-section">
+        <!-- 按鈕起始時顯示 -->
+        <button id="startGameButton">點擊開始遊戲</button>
+
+        <!-- 隱藏的遊戲區域，按鈕被替換後顯示遊戲 -->
+        <div class="game-section" id="game"></div>
+        <script>
+          document
+            .getElementById("startGameButton")
+            .addEventListener("click", function () {
+              // 創建 <iframe> 標籤
+              var iframe = document.createElement("iframe");
+              iframe.src = "LittleWorld.html"; // 指定遊戲檔案路徑
+              iframe.style.width = "100%";
+              iframe.style.aspectRatio = "1/1"; // 確保 1:1 寬高比
+              iframe.frameBorder = "0";
+              iframe.allowFullscreen = true;
+
+              // 找到遊戲區域並插入 iframe
+              var gameSection = document.getElementById("game");
+              gameSection.appendChild(iframe);
+
+              // 隱藏按鈕
+              document.getElementById("startGameButton").style.display = "none";
+            });
+        </script>
       </section>
 
       <!-- <section class="newsnews" id="news">
